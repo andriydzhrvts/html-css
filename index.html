@@ -4,13 +4,39 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
     <title>Medix</title>
 </head>
 
 <body>
+
+<div class="navbar">
+    <nav class="nav" id="nav">
+        <a class="nav__link" href="#"><i class="fas fa-home"></i>Home</a>
+        <a class="nav__link" href="#"><i class="fas fa-stethoscope"></i>Doctor</a>
+        <a class="nav__link" href="#"><i class="fas fa-procedures"></i>Patient List</a>
+        <a class="nav__link" href="#"><i class="fa fa-code-branch"></i>Department</a>
+        <a class="nav__link" href="#"><i class="fa fa-clipboard-list"></i>Schedule</a>
+        <a class="nav__link" href="#"><i class="fa fa-calendar-check"></i>Appointment</a>
+        <a class="nav__link" href="#"><i class="fa fa-flask"></i>Lab Result</a>
+        <a class="nav__link" href="#"><i class="fa fa-chart-bar"></i>Reports</a>
+        <a class="nav__link" href="#"><i class="fa fa-envelope-open"></i>Mail</a>
+        <a class="nav__link" href="#"><i class="fa fa-comments"></i>Live Chat</a>
+    </nav>
+   
+        <button class="burger" type="button" id="navToggle">
+            <span class="burger__item">Menu</span>
+        </button>
+    
+</div>
+
+
+
 
 <div class="doctors">
    <div class="container">
@@ -268,7 +294,7 @@
 
 
 
-
+<script src="app.js"></script>
 </body>
 
 </html>
